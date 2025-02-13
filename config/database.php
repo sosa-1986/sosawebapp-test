@@ -46,7 +46,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('sosawebapp-server.mysql.database.azure.com'),
+            'host' => env('sosawebapp-server'),
             'port' => env('3306'),
             'database' => env('sosawebapp-database'),
             'username' => env('sosa'),
